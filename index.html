@@ -105,37 +105,41 @@
             <p>Luken Cutit on Viialan paikallinen parturi, joka tarjoaa huippulaadukkaita hiustenleikkauksia. Erikoistumme fadeihin, uusiin tyyleihin ja siistiin linjaukseen.</p>
         </section>
 
-        <section <form action="https://formspree.io/f/xldrqzar" method="POST">
-    <label for="name">Täysi nimi:</label>
-    <input type="text" id="name" name="name" required>
+        <section <!-- Modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/f/xldrqzar" method="POST">
+  
+  <label for="name">Täysi nimi:</label>
+  <input type="text" id="name" name="name" required>
 
-    <label for="phone">Puhelinnumero:</label>
-    <input type="text" id="phone" name="phone" required>
+  <label for="phone">Puhelinnumero:</label>
+  <input type="text" id="phone" name="phone" required>
 
-    <label for="email">Sähköposti:</label>
-    <input type="email" id="email" name="email" required>
+  <label for="email">Sähköposti:</label>
+  <input type="email" id="email" name="email" required>
 
-    <label for="service">Valitse palvelu:</label>
-    <select id="service" name="service">
-        <option value="fade">Fade - 20€</option>
-        <option value="hairstyle">Uusi hiustyyli - 25€</option>
-        <option value="lineup">Linjan siistiminen - 15€</option>
-    </select>
+  <label for="service">Valitse palvelu:</label>
+  <select id="service" name="service" required>
+    <option value="fade">Fade - 20€</option>
+    <option value="hairstyle">Uusi hiustyyli - 25€</option>
+    <option value="lineup">Linjan siistiminen - 15€</option>
+  </select>
 
-    <button type="submit">Varaa nyt</button>
+  <label for="date">Valitse päivämäärä:</label>
+  <input type="date" id="date" name="date" required>
+
+  <label for="message">Viesti (valinnainen):</label>
+  <textarea id="message" name="message"></textarea>
+
+  <button type="submit">Varaa nyt</button>
 </form>
 
-                </select>
-
-                <button type="submit">Varaa nyt</button>
-            </form>
         </section>
 
     </div>
 
     <footer>
         <p>Sähköposti: <a href="mailto:hugo.kulhia@gmail.com" style="color:#d4af37;">hugo.kulhia@gmail.com</a></p>
-        <p>Osoite: Viiala, Akaa</p>
+        <p>Osoite: Niemitie 17, Akaa</p>
     </footer>
 
 </body>
